@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+ body {
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+.navigation-container {
+    width: 50vw;
+    height: 75px;
+    border: 1px solid black;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 30px;
+}
+
+.navigation-list > li {
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.navigation-list li:hover {
+    background-color: #04AA6D;
+    color: whitesmoke;
+}
+
+.new {
+    display: inline-block;
+    font-size: 15px;
+    background-color: #FFF4A3;
+    color: black;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
