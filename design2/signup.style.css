@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(122, 202, 216);
+    
+}
+
+.parent {
+    height: 550px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.child {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 40px;
+}
+/* all styles for div child 1 */
+
+.child-1 {
+    background-color: rgba(51, 141, 201, 0.842);
+    color: whitesmoke;
+    
+}
+
+.hv-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bolder;
+}
+
+
+/* all styles for div child 2 */
+
+.child-2 {
+    background-color: white;
+    color: rgba(51, 141, 201, 0.842);
+}
